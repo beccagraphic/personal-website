@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+  }
+
+
+h1{
+	text-align: center;
+	color:skyblue;
+}
+
+img{
+	float:left;
+	width: calc(20% - 30px);
+	
+	margin: 15px;
+}
+
+.gallery{
+	background-color: black;
+}
+
+@media all and (max-width: 400px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  img { 
+  width: calc(50% - 30px); }
+}
