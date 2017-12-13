@@ -8,17 +8,18 @@
 
 .left-column {
 	float:left;
-	background-color:lightblue;
+	background-image:url("laptop.jpg");
+	background-size: cover;
 	width: 50%;
-	height: 500px;
+	height: 700px;
 	align-content: center;
-	padding:100px;
+	padding:10px;
 	box-sizing: border-box;
 
 }
 
 img {
-	width: 40%;
+	width: 14%;
 	float:left;
 }
 
@@ -26,7 +27,7 @@ img {
 	float:left;
 	background-color: black;
 	width: 50%;
-	height: 500px;
+	height: 700px;
 	padding:100px;
 	box-sizing: border-box;
 
@@ -34,20 +35,30 @@ img {
 
 .footer{
 	clear:both;
-	background-color:tan;
+	background-color:#3dadf7;
 	height: 100px;
 	text-align: center;
 	padding: 30px;
 
 }
 
-h2{
+h1{
 	color:white;
+	letter-spacing: 300px,
+}
+
+h3{
+	color:skyblue;
+}
+
+h5{
+	color:white;
+	text-transform: uppercase;
 }
 
 button {
-    background-color: black;
-    color: white;
+    background-color: #3dadf7;
+    color: black;
     padding: 10px 20px;
     border: none;
     margin-top: 20px;
@@ -58,12 +69,25 @@ button:hover {
 }
 
 form{
-background-color: tan;
 width: 70%;
-padding:40px;
 }
 
 input{
 width: 100%;
 padding:5px;
 }
+
+@media all and (max-width: 900px) {
+.left-column{ 
+	display: none;
+}
+.right-column{ 
+	width:100%;
+}
+form{
+width: 100%;
+}
+  
+}
+
+
