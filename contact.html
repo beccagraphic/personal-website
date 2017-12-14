@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="reset/css" 
+    href="reset.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Raleway:400,900">
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
           <link rel="stylesheet" href="contact.css">
-  	<title>Form & Footer</title>
+  	<title>Becca Lisoski | Contact</title>
   <style>
       body {
         font-family: 'Raleway', sans-serif;
@@ -14,24 +16,42 @@
     </style>
   </head>
   <body>
+    <div class="topnav" id="myTopnav">
+      <img src="rsl-logo.png">
+      <a href="#index"><h4>BECCA LISOSKI</h4></a>
+      <a href="#contact"><h5>CONTACT</h5></a>
+      <a href="#about"><h5>ABOUT</h5></a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <script>
+      function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+        } else {
+        x.className = "topnav";
+          }
+        }
+    </script>
 
   <div class="wrapper">
    <div class="left-column">
-    <img src="rsl-logo.png">
+    
    </div>
 
 	<div class="right-column">
-    <h1>CONTACT</h1>
-    <h3>Send e-mail to beccagraphic@gmail.com:</h3>
+    <h1>C O N T A C T</h1>
+    <h3>Send an e-mail to beccagraphic@gmail.com:</h3>
 
     <form action="mailto:beccagraphic@gmail.com" method="post" enctype="text/plain">
-      <h5>Name:</h5>
+      <h6>Name:</h6>
       <input type="text" name="name">
-      <h5>E-mail:</h5>
+      <h6>E-mail:</h6>
       <input type="text" name="mail">
-      <h5>Message:</h5>
+      <h6>Message:</h6>
       <input type="text" name="message" size="350"><br><br>
-      <button type="submit">Login</button>
+      <button type="submit">Send E-Mail</button>
     </form>
   </div>
 </div>

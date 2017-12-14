@@ -1,3 +1,63 @@
+html, body, ul{
+	margin:0;
+	padding:0;
+
+}
+
+.topnav {
+  overflow: hidden;
+  position: fixed;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #001011;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.topnav a:hover {
+  color:black;
+  background-color: #3dadf7;
+}
+
+.active {
+  background-color: #3dadf7;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+}
+
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
@@ -19,13 +79,14 @@
 }
 
 img {
-	width: 10%;
+	width: 38px;
 	float:left;
+	padding:20px;
 }
 
 .right-column{
 	float:left;
-	background-color: black;
+	background-color: #001011;
 	width: 50%;
 	height: 700px;
 	padding:100px;
@@ -35,8 +96,8 @@ img {
 
 .footer{
 	clear:both;
-	background-color:#3dadf7;
-	height: 100px;
+	background-color:#5BC3EB;
+	height: 1000px;
 	text-align: center;
 	padding: 30px;
 
@@ -45,14 +106,14 @@ img {
 /*social media icons*/
 
 .fa {
-  padding: 10px;
+  padding: 12px;
   font-size: 30px;
   width: 30px;
   text-align: center;
   text-decoration: none;
   margin: 15px 9px;
   border-radius: 50%;
-  background: #3dadf7;
+  background: #DADAD9;
   color: white;
 }
 
@@ -67,18 +128,19 @@ h1{
 }
 
 h3{
-	color:skyblue;
+	color:#5BC3EB;
 }
 
-h5{
-	color:white;
+
+h6{
+	color: #5BC3EB;
 	text-transform: uppercase;
 }
 
 /*email form*/
 
 button {
-    background-color: #3dadf7;
+    background-color: #5BC3EB;
     color: black;
     padding: 10px 20px;
     border: none;
@@ -87,6 +149,7 @@ button {
 
 button:hover {
     opacity: 0.8;
+    color: black;
 }
 
 form{
@@ -107,9 +170,16 @@ padding:5px;
 }
 .right-column{ 
 	width:100%;
+	padding: 50px;
+	margin-top:125px;
 }
 form{
 width: 100%;
+}
+
+img{
+	margin-left:-10px;
+	margin-top: -15px;
 }
   
 }
