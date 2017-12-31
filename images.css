@@ -13,6 +13,11 @@ h1{
 	color:skyblue;
 }
 
+h5{
+  color:white;
+}
+
+
 img{
 	float:left;
 	width: calc(20% - 30px);
@@ -22,6 +27,7 @@ img{
 
 .gallery{
 	background-color: black;
+  margin-top: 70px;
 }
 
 @media all and (max-width: 400px) {
@@ -46,6 +52,7 @@ img{
 .topnav {
   overflow: hidden;
   position: fixed;
+
 
 }
 
@@ -100,9 +107,10 @@ img{
 .footer{
   clear:both;
   background-color:#5BC3EB;
-  height: 1000px;
+  height: 100px;
   text-align: center;
   padding: 30px;
+  margin-top: 100px;
 
 }
 
@@ -120,4 +128,9 @@ img{
 
 .fa:hover {
     background: black;
+}
+
+.logo {
+  width: 38px;
+  float:left;
 }

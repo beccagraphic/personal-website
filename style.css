@@ -116,8 +116,38 @@ h1 {
 .footer{
   clear:both;
   background-color:#5BC3EB;
-  height: 1000px;
+  height: 100px;
   text-align: center;
   padding: 30px;
+
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border;
+
+}
+
+
+.left-column {
+  float:left;
+  background-image:url("illustrated-becca.png");
+  background-size: cover;
+  width: 50%;
+  height: 700px;
+  align-content: center;
+  padding:10px;
+  box-sizing: border-box;
+
+}
+
+.right-column{
+  float:left;
+  background-color: #001011;
+  width: 50%;
+  height: 700px;
+  padding:100px;
+  box-sizing: border-box;
 
 }
