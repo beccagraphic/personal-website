@@ -4,11 +4,18 @@ html, body, ul{
 
 }
 
+.logo {
+  width: 38px;
+  float:left;
+  padding:20px;
+}
+
 .topnav {
   overflow: hidden;
   position: fixed;
-
+  z-index: 1000;
 }
+
 
 .topnav a {
   float: left;
@@ -18,7 +25,8 @@ html, body, ul{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-
+  position: relative;
+  
 }
 
 .topnav a:hover {
@@ -55,6 +63,7 @@ html, body, ul{
     display: block;
     text-align: left;
   }
+
   .animation {
     display:none;
   }
@@ -77,6 +86,20 @@ h1 {
   text-align: center;
   color: rgb(66, 197, 244);
 }
+
+h2 {
+  font-family: 'Raleway';
+  font-size: 40px;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: 'Raleway';
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
+}
+
 
 .cartoon{
   width: 400px;
@@ -122,7 +145,49 @@ h1 {
 
 }
 
-.wrapper {
+.video {
+  right: 0;
+  bottom: 0;
+  width: 100%; 
+  height: 600px;
+  margin-top: -100px;
+
+}
+
+#animation {
+  width: 1000px; 
+  height: 600px;
+
+}
+
+.left-column {
+  float:left;
+  background-size: cover;
+  width: 25%;
+  height: 700px;
+  align-content: center;
+  vertical-align: bottom;
+  box-sizing: border-box;
+  z-index:100;
+  position: relative;
+
+}
+
+.right-column{
+  float:left;
+  width: 75%;
+  height: 700px;
+  padding:100px;
+  box-sizing: border-box;
+  margin-top: -60px;
+  margin-left: -150px;
+  position: relative;
+  z-index:-100;
+
+}
+
+
+.container1 {
   width: 100%;
   margin: 0 auto;
   box-sizing: border;
@@ -130,9 +195,8 @@ h1 {
 }
 
 
-.left-column {
+.left-column1 {
   float:left;
-  background-image:url("illustrated-becca.png");
   background-size: cover;
   width: 50%;
   height: 700px;
@@ -142,7 +206,7 @@ h1 {
 
 }
 
-.right-column{
+.right-column1{
   float:left;
   background-color: #001011;
   width: 50%;
@@ -151,3 +215,90 @@ h1 {
   box-sizing: border-box;
 
 }
+
+.social {
+  float:left;
+  background-color: #5BC3EB;;
+  width: 100%;
+  height: 175px;
+  padding:100px;
+  margin-top: -174px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 50px;
+
+}
+
+.container3 {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border;
+
+}
+
+.left-column2{
+  float:left;
+  background-color: #001011;
+  width: 50%;
+  height: 500px;
+  box-sizing: border-box;
+  padding:55px;
+
+}
+
+#intro {
+  font-size: 15px;
+}
+
+.right-column2 {
+  float:left;
+  background-image:url("workhard.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+  align-content: center;
+  padding:10px;
+  box-sizing: border-box;
+
+}
+
+.container4 {
+  float:left;
+  background-color: #2780CB;
+  width: 100%;
+  height: 600px;
+  padding:200px;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+.container5 {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border;
+
+}
+
+.left-column3{
+  float:left;
+  background-image:url("stymulus_metallic.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+  align-content: center;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+.right-column3 {
+  float:left;
+  background-color: #001011;
+  width: 50%;
+  height: 500px;
+  box-sizing: border-box;
+  padding:100px;
+  
+
+}
+

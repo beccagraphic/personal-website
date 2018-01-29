@@ -28,6 +28,7 @@ img{
 .gallery{
 	background-color: black;
   margin-top: 70px;
+  padding-bottom: 100px;
 }
 
 @media all and (max-width: 400px) {
@@ -133,4 +134,101 @@ img{
 .logo {
   width: 38px;
   float:left;
+}
+
+.container1 {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border;
+  margin-top: 100px;
+}
+
+.left-column1{
+  float:left;
+  background-image:url("stymulus_metallic.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+  align-content: center;
+  padding:10px;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+
+.right-column1 {
+  float:left;
+  background-image:url("legacyweb.png");
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+  align-content: center;
+  padding:10px;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+
+.container2 {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border;
+  margin-top: 100px;
+}
+
+.left-column2{
+  float:left;
+  background-image:url("Summit11x17Mockup.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+  align-content: center;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+.right-column2 {
+  float:left;
+  background-image:url("Etiquette_FlyerinHandMockup.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+  align-content: center;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+.container3 {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border;
+  margin-top: 100px;
+}
+
+.left-column3{
+  float:left;
+  background-image:url("TiogaLogoMockup.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+  align-content: center;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+.right-column3 {
+  float:left;
+  background-image:url("SummitPamphletMockup.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+  align-content: center;
+  padding:10px;
+  box-sizing: border-box;
+}
+
+.copy {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: white;
+  text-align: left;
+  line-height: 30px;
 }
