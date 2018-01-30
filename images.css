@@ -6,7 +6,10 @@ html, body, ul{
 body {
     background-color: black;
   }
-
+  
+.fade{
+  display: none;
+}
 
 h1{
 	text-align: center;

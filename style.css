@@ -4,6 +4,10 @@ html, body, ul{
 
 }
 
+.fade{
+  display: none;
+}
+
 .logo {
   width: 38px;
   float:left;
